@@ -1,0 +1,140 @@
+project: FUCKYOU_DEREK
+description: >
+  Structured evidence database of the Derek & Merry situation, built for the
+  public website and for chunked AI ingestion (Google AI Studio). Every claim
+  is tagged by evidence class: whatsapp_log (hard receipt), screenshot (hard
+  receipt), user_testimony (sworn, unverifiable), report (third-party AI analysis).
+version: "1.0"
+compiled: "2026-07-20"
+
+subjects:
+  archivist: Merry (whatsapp export holder, testimony source)
+  subject: Derek Vasilakis
+  third_party: Jay (testimony only, no logs)
+
+evidence_gaps:
+  - period: "2025-01-26 to 2025-11-05"
+    note: "First ~10 months missing. Survives only as testimony + reports."
+  - note: "Export and screenshots agree line-for-line in the overlap (Dec 12, 2025)."
+
+statistics:
+  total_messages: 2105
+  merry_messages: 1726
+  derek_messages: 379
+  derek_share: "18.0%"
+  main_span: "2025-11-05 to 2026-02-16 (104 days)"
+  derek_active_days: 38
+  longest_silence_days: 28
+  call_events_logged: 113
+  keystone_facts:
+    - id: WA-1494
+      fact: "55-minute video call on 2026-01-22 after a year of 'complex' impossibility claims"
+    - id: WA-0560
+      fact: "'It will happen when it doesn't feel like this. Period' — promise dissolved into mood condition"
+    - id: WA-1879
+      fact: "'I'm wrong 100%' — past-tense-only confession"
+    - id: WA-1885
+      fact: "Present and future tense declared 'up for grabs in the guilt game'"
+    - id: WA-2094
+      fact: "Archive ends on a system line; 24-hour apology deadline expired unanswered"
+
+modules:
+  - code: MODULE_01_PROMISES
+    title: "THE PROMISES (The Hook & The Bait)"
+    file: modules/MODULE_01_PROMISES.md
+    labels: [LOVE_BOMBING, FUTURE_FAKING, INTERMITTENT_REINFORCEMENT]
+    author: cratak (preserved)
+    key_evidence: [user_testimony, FORENSIC_AUDIT_DOSSIER]
+  - code: MODULE_02_WITHHOLDING
+    title: "THE WITHHOLDING (The Control Mechanism)"
+    file: modules/MODULE_02_WITHHOLDING.md
+    labels: [SENSORY_DEPRIVATION, COERCIVE_CONTROL, INTERMITTENT_REINFORCEMENT]
+    author: cratak (preserved)
+    key_evidence: [WA-1494, WA-1688, WA-0790, user_testimony]
+  - code: MODULE_03_RUG_PULLS
+    title: "THE RUG-PULLS (The Neurological Trigger)"
+    file: modules/MODULE_03_RUG_PULLS.md
+    labels: [GOALPOST_MOVING, INTERMITTENT_REINFORCEMENT, PUNITIVE_RESET]
+    author: kimi (completed)
+    key_evidence: [WA-0241, WA-0560, WA-0605, WA-0654, WA-1494, WA-1906, SC-28]
+  - code: MODULE_04_GASLIGHTING_DARVO
+    title: "THE GASLIGHTING & DARVO (The Reality Rewrite)"
+    file: modules/MODULE_04_GASLIGHTING_DARVO.md
+    labels: [GASLIGHTING, DARVO, TONE_POLICING]
+    author: kimi (completed)
+    key_evidence: [WA-1684, WA-1688, WA-1879, WA-1885, WA-1891, WA-1903, WA-1906, WA-1975]
+  - code: MODULE_05_TRIANGULATION
+    title: "THE TRIANGULATION (The Jay Hierarchy)"
+    file: modules/MODULE_05_TRIANGULATION.md
+    labels: [TRIANGULATION, HIERARCHY_GAMES, JEALOUSY_INDUCTION]
+    author: kimi (completed)
+    key_evidence: [user_testimony, FORENSIC_PATTERN_ANALYSIS, WA-0654]
+    warning: "Primarily testimony-based; Jay material predates the export."
+  - code: MODULE_06_EXPLOITATION
+    title: "THE EXPLOITATION (Emotional & Sexual Labor)"
+    file: modules/MODULE_06_EXPLOITATION.md
+    labels: [LABOR_EXTRACTION, ASYMMETRIC_INVESTMENT, SERVICE_RELATIONSHIP]
+    author: kimi (completed)
+    key_evidence: [chat_index_csv, WA-1987, WA-2032, WA-2063, user_testimony, SC-18]
+  - code: MODULE_07_ERASURE
+    title: "THE ERASURE (The Final Betrayal)"
+    file: modules/MODULE_07_ERASURE.md
+    labels: [REPLACEMENT_DISPLAY, PUBLIC_REWRITE, LEGACY_MANAGEMENT]
+    author: kimi (completed)
+    key_evidence: [WA-1891, WA-2027, WA-2028, WA-2029, WA-2032, WA-2063, WA-2094]
+
+files:
+  navigation:
+    - path: README.md
+      desc: "Repo overview, ID system, ingestion order, evidence-status legend"
+    - path: 00_ARCHITECTURE.md
+      desc: "7-module master plan + file format spec (cratak plan, adopted)"
+    - path: TIMELINE.md
+      desc: "Master chronology Jan 2025 – May 2026, every entry cited"
+  narrative_modules:
+    dir: modules/
+    count: 7
+  whatsapp_logs:
+    - path: evidence/whatsapp/chat_index_01.csv
+      desc: "Message index part 1 (WA-0001–~WA-0702): id, datetime, speaker, type, source, text"
+    - path: evidence/whatsapp/chat_index_02.csv
+      desc: "Message index part 2"
+    - path: evidence/whatsapp/chat_index_03.csv
+      desc: "Message index part 3 (ends WA-2105). Parts share the header row; concatenate for full 2105-row index."
+    - path: evidence/whatsapp/log_2025-11.md
+      ids: "WA-0001–WA-0067"
+    - path: evidence/whatsapp/log_2025-12.md
+      ids: "WA-0068–WA-1166"
+    - path: evidence/whatsapp/log_2026-01.md
+      ids: "WA-1167–WA-1615"
+    - path: evidence/whatsapp/log_2026-02.md
+      ids: "WA-1616–WA-1980"
+    - path: evidence/whatsapp/log_2026-05.md
+      ids: "WA-1981–WA-2105 (the reunion)"
+  screenshots:
+    - path: evidence/screenshots/DEREK6_SCREENSHOT_INDEX.md
+      desc: "28-page dossier index: SC-01–SC-28, key quotes, module refs, verification status"
+      keystone: SC-28
+  transcripts:
+    - path: evidence/transcripts/VOICENOTE_DEREK1.md
+      desc: "Voice note transcription (verbatim)"
+  reports:
+    - path: reports/FORENSIC_AUDIT_DOSSIER.md
+      desc: "Case #001-D-V: integrity scoreboard, testimony data log (verbatim)"
+    - path: reports/FORENSIC_PATTERN_ANALYSIS.md
+      desc: "Pattern analysis incl. Feb 15-16 'perspective guy' session (verbatim)"
+    - path: reports/HONESTY_VS_SINCERITY.md
+      desc: "Honesty-vs-sincerity split in Derek's defense (verbatim)"
+
+ingestion_order_for_ai_studio:
+  - "00_MASTER_INDEX.yaml + 00_ARCHITECTURE.md (the map)"
+  - "TIMELINE.md (the spine)"
+  - "modules/*.md one at a time (narrative + cited evidence)"
+  - "evidence/whatsapp/log_YYYY-MM.md only when full context needed"
+  - "reports/*.md (third-party audits)"
+  - "evidence/screenshots/DEREK6_SCREENSHOT_INDEX.md (visual receipts)"
+
+id_system:
+  whatsapp: "WA-0001 … WA-2105 (permanent, chronological across both exports)"
+  screenshots: "SC-01 … SC-28 (Derek6.pdf page order)"
+  lookup: "keyword → chat_index_*.csv → WA-ID → monthly log or module citation"
