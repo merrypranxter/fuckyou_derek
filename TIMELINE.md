@@ -23,7 +23,7 @@ Every entry cites its evidence. `WA-####` = WhatsApp message ID (see `evidence/w
 | Nov 6 | Derek: "I would say i could give you a call but you never hear me in a million years" `WA-0064` | whatsapp_log |
 | **Nov 6 → Dec 5** | **28-day Derek silence.** First documented disappearance inside the log | chat_index_*.csv (gap analysis) |
 
-## Phase 2 — The December Confrontation (Dec 5 – Dec 26, 2025)
+## Phase 2 — The December Confrontation (Dec 5 – Dec 31, 2025)
 
 | Date | Event | Source |
 |---|---|---|
@@ -31,12 +31,13 @@ Every entry cites its evidence. `WA-####` = WhatsApp message ID (see `evidence/w
 | Dec 9 | Derek: "Look at it from my perspective" `WA-0366` — first logged use of the perspective defense | whatsapp_log |
 | **Dec 12** | **THE CONFRONTATION** (9:06 AM – 3:19 PM). Merry demands the year-old promise be kept. Key receipts below. | whatsapp_log + SC-01–28 |
 | Dec 12, 9:09 AM | Derek: **"It will happen when it doesn't feel like this. Period"** `WA-0560` — the promise is now conditional on her behavior | SC-28 (hand-circled) |
-| Dec 12, 9:23 AM | Derek's "consideration" speech: video call will come when she displays "one single consideration in an outward direction" `WA-0605` | whatsapp_log |
+| Dec 12, 9:23 AM | Derek's "consideration" speech: the call becomes a wage for "one single consideration in an outward direction" — and mid-sentence he says it outright: **"a video call will never happen between us, to protect my progress _from_ you"** `WA-0605` | whatsapp_log |
 | Dec 12, 9:36 AM | Derek: "I'll find a FRIEND who will help me work on my complexes, not make them worse. Then once I'm comfortable on camera, I'll come back" `WA-0654` — replacement threat | whatsapp_log |
 | Dec 12, 3:13 PM | Derek: "I can't do this right now… It's unnecessary… I don't understand why you don't understand… I will not have memories of making video calls with someone behaving li[ke this]" `WA-0790` | SC-24/25 |
 | Dec 12 → Dec 20 | **8-day silence** — the punitive freeze after the confrontation | chat_index_*.csv |
 | Dec 20–23 | Resurfaces with emoji walls `WA-0958`, double missed calls `WA-0995–0996` | whatsapp_log |
 | Dec 24 | "Or a dropped call..." `WA-1018` | whatsapp_log |
+| **Dec 29, 9:53 PM** | **VIDEO CALL, 1 HR** `WA-1135` — 17 days after "it will happen when it doesn't feel like this" and "a video call will never happen between us." The first capability receipt | whatsapp_log |
 
 ## Phase 3 — The January Thaw (Jan 2 – Jan 26, 2026)
 
@@ -49,7 +50,7 @@ Every entry cites its evidence. `WA-####` = WhatsApp message ID (see `evidence/w
 | Jan 24 | Voice call, 2 hr `WA-1538` | whatsapp_log |
 | Jan 26 | Last normal-contact day before slide | whatsapp_log |
 
-> The Jan 22 video call is one of the most important receipts in the archive: it proves capability. The "complex" never made a video call impossible — it made it *withheld*. See MODULE_02 and MODULE_03.
+> The Dec 29 and Jan 22 video calls are two of the most important receipts in the archive: they prove capability, twice. The "complex" never made a video call impossible — it made it *withheld*. See MODULE_02 and MODULE_03.
 
 ## Phase 4 — The Fade & The Flip (Feb 3 – Feb 16, 2026)
 
