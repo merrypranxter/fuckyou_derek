@@ -63,3 +63,15 @@ whitespace variant, the only deliberate normalization in the archive).
 Every spelling/grammar error in quoted material is the sender's own (`motjerfucker`, `GOIMG`,
 `impirtsnt`, `abynore`, `motherficker`, Derek's `you've hen` inside WA-0605, etc.).
 Nothing has been corrected, smoothed, or normalized. Where a module flags one, it uses `[sic]`.
+
+## 5. chat_index CSV conventions
+
+- **⏎ (U+23CE)** inside a CSV `text` field marks a line break inside the original multi-line
+  message. The artifact lines from §1 appear in the CSVs the same way they appear inline in the
+  logs — appended to the preceding message's row after a ⏎ (e.g. WA-0846, WA-1226, WA-1979).
+- **Line endings:** the CSVs are stored with LF line endings. (Working copies were CRLF; the
+  conversion is byte-for-byte otherwise — verified by checksum against source.)
+- **U+200E (left-to-right mark)** before WhatsApp system/placeholder lines (`‎video omitted`,
+  `‎Voice call, …`) is preserved exactly as exported.
+- The 24 empty-body artifact lines carry no WA-ID of their own (see §1); every other line —
+  including system lines — is counted in WA-0001–WA-2105.
