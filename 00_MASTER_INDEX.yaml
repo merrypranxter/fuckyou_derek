@@ -100,11 +100,47 @@ files:
     count: 7
   whatsapp_logs:
     - path: evidence/whatsapp/chat_index_01.csv
-      desc: "Message index part 1 (WA-0001–~WA-0702): id, datetime, speaker, type, source, text"
-    - path: evidence/whatsapp/chat_index_02.csv
-      desc: "Message index part 2"
-    - path: evidence/whatsapp/chat_index_03.csv
-      desc: "Message index part 3 (ends WA-2105). Parts share the header row; concatenate for full 2105-row index."
+      desc: "Message index (WA-0001–WA-0702): id, datetime, speaker, type, source, text"
+    - path: evidence/whatsapp/chat_index_a.csv
+      desc: "Message index (WA-0703–WA-0769)"
+    - path: evidence/whatsapp/chat_index_b.csv
+      desc: "Message index (WA-0770–WA-0853)"
+    - path: evidence/whatsapp/chat_index_c.csv
+      desc: "Message index (WA-0854–WA-0942)"
+    - path: evidence/whatsapp/chat_index_d.csv
+      desc: "Message index (WA-0943–WA-1025)"
+    - path: evidence/whatsapp/chat_index_e.csv
+      desc: "Message index (WA-1026–WA-1078)"
+    - path: evidence/whatsapp/chat_index_f.csv
+      desc: "Message index (WA-1079–WA-1162)"
+    - path: evidence/whatsapp/chat_index_g.csv
+      desc: "Message index (WA-1163–WA-1250)"
+    - path: evidence/whatsapp/chat_index_h.csv
+      desc: "Message index (WA-1251–WA-1333)"
+    - path: evidence/whatsapp/chat_index_i.csv
+      desc: "Message index (WA-1334–WA-1419)"
+    - path: evidence/whatsapp/chat_index_j.csv
+      desc: "Message index (WA-1420–WA-1512)"
+    - path: evidence/whatsapp/chat_index_k.csv
+      desc: "Message index (WA-1513–WA-1606)"
+    - path: evidence/whatsapp/chat_index_l.csv
+      desc: "Message index (WA-1607–WA-1687)"
+    - path: evidence/whatsapp/chat_index_m.csv
+      desc: "Message index (WA-1688–WA-1762)"
+    - path: evidence/whatsapp/chat_index_n.csv
+      desc: "Message index (WA-1763–WA-1770)"
+    - path: evidence/whatsapp/chat_index_o.csv
+      desc: "Message index (WA-1771–WA-1852)"
+    - path: evidence/whatsapp/chat_index_p.csv
+      desc: "Message index (WA-1853–WA-1915)"
+    - path: evidence/whatsapp/chat_index_q.csv
+      desc: "Message index (WA-1916–WA-1965)"
+    - path: evidence/whatsapp/chat_index_r.csv
+      desc: "Message index (WA-1966–WA-2000)"
+    - path: evidence/whatsapp/chat_index_s.csv
+      desc: "Message index (WA-2001–WA-2054)"
+    - path: evidence/whatsapp/chat_index_t.csv
+      desc: "Message index (WA-2055–WA-2105). All 21 index files share the header row; concatenate for full 2105-row index."
     - path: evidence/whatsapp/log_2025-11.md
       ids: "WA-0001–WA-0067"
     - path: evidence/whatsapp/log_2025-12_part1.md
