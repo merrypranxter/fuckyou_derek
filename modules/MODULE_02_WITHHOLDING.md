@@ -27,10 +27,10 @@ The "Complex" was the cover story. By framing his refusal as a psychological str
 
 ### Instance 2.2: The "Complex" as a Shield
 - **The Claim:** Derek asserted he had a "complex" about being on camera, making him unable or unwilling to perform video calls.
-- **The Reality:** Derek was seen on camera in old StarMaker videos singing with other people (e.g., "Zombie" by the Cranberries) and later performed duets with other women. **And on Jan 22, 2026 at 1:17 AM he held a 55-minute video call with Merry** — `WA-1494` — proving capability beyond dispute.
+- **The Reality:** Derek was seen on camera in old StarMaker videos singing with other people (e.g., "Zombie" by the Cranberries) and later performed duets with other women. **And he held two long video calls with Merry — a one-hour call on Dec 29, 2025** (`WA-1135`, just seventeen days after declaring a video call would "never happen between us" — see MODULE_03) **and a 55-minute call on Jan 22, 2026 at 1:17 AM** (`WA-1494`) — proving capability beyond dispute.
 - **The Manipulation:** The "complex" was situational. It existed only when it served as an excuse to deny Merry. By calling it a "complex," he made the conversation about his trauma rather than her needs.
 - **Evidence Reference:**
-  - Source: `user_testimony` / StarMaker Profile; hard receipt: `WA-1494` ("Video call, 55 min")
+  - Source: `user_testimony` / StarMaker Profile; hard receipts: `WA-1135` ("Video call, 1 hr", 2025-12-29), `WA-1494` ("Video call, 55 min", 2026-01-22)
   - Keyword: "complex", "Zombie", "singing with other people"
   - Analysis: Fraudulent Vulnerability. A fake weakness used to exert real power.
 
@@ -66,11 +66,11 @@ evidence_points:
     log_corroboration: [WA-1688, WA-0790]
   - event: "The 'Complex' Narrative"
     claim: "Unable to be on camera due to psychological complex"
-    contradiction: "Visible in videos with others; duetted with other women; 55-min video call WA-1494 on 2026-01-22"
+    contradiction: "Visible in videos with others; duetted with other women; 1-hr video call WA-1135 on 2025-12-29; 55-min video call WA-1494 on 2026-01-22"
     result: "Victim blamed for 'insensitivity' to a fake limitation"
     status: "FRAUDULENT_VULNERABILITY"
     source: user_testimony
-    log_corroboration: [WA-1494]
+    log_corroboration: [WA-1135, WA-1494]
   - event: "The Rations System"
     action: "Occasional sending of old photos"
     result: "Maintained hope/attachment via intermittent reward"
