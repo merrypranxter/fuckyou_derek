@@ -27,6 +27,10 @@ statistics:
   longest_silence_days: 28
   call_events_logged: 113
   keystone_facts:
+    - id: WA-1135
+      fact: "1-hour video call on 2025-12-29 — seventeen days after 'a video call will never happen between us'"
+    - id: WA-0605
+      fact: "'I will PROMISE just as readily, that a video call will never happen between us, to protect my progress _from_ you'"
     - id: WA-1494
       fact: "55-minute video call on 2026-01-22 after a year of 'complex' impossibility claims"
     - id: WA-0560
@@ -50,13 +54,13 @@ modules:
     file: modules/MODULE_02_WITHHOLDING.md
     labels: [SENSORY_DEPRIVATION, COERCIVE_CONTROL, INTERMITTENT_REINFORCEMENT]
     author: cratak (preserved)
-    key_evidence: [WA-1494, WA-1688, WA-0790, user_testimony]
+    key_evidence: [WA-1135, WA-1494, WA-1688, WA-0790, user_testimony]
   - code: MODULE_03_RUG_PULLS
     title: "THE RUG-PULLS (The Neurological Trigger)"
     file: modules/MODULE_03_RUG_PULLS.md
     labels: [GOALPOST_MOVING, INTERMITTENT_REINFORCEMENT, PUNITIVE_RESET]
     author: kimi (completed)
-    key_evidence: [WA-0241, WA-0560, WA-0605, WA-0654, WA-1494, WA-1906, SC-28]
+    key_evidence: [WA-0241, WA-0560, WA-0605, WA-0654, WA-1135, WA-1494, WA-1906, SC-28]
   - code: MODULE_04_GASLIGHTING_DARVO
     title: "THE GASLIGHTING & DARVO (The Reality Rewrite)"
     file: modules/MODULE_04_GASLIGHTING_DARVO.md
@@ -103,8 +107,14 @@ files:
       desc: "Message index part 3 (ends WA-2105). Parts share the header row; concatenate for full 2105-row index."
     - path: evidence/whatsapp/log_2025-11.md
       ids: "WA-0001–WA-0067"
-    - path: evidence/whatsapp/log_2025-12.md
-      ids: "WA-0068–WA-1166"
+    - path: evidence/whatsapp/log_2025-12_part1.md
+      ids: "WA-0068–WA-0439 (Dec 5–9)"
+    - path: evidence/whatsapp/log_2025-12_part2.md
+      ids: "WA-0440–WA-0812 (Dec 9–14, the Dec 12 confrontation)"
+    - path: evidence/whatsapp/log_2025-12_part3.md
+      ids: "WA-0813–WA-1166 (Dec 18–31, incl. WA-1135 video call)"
+    - path: evidence/whatsapp/SOURCE_ARTIFACTS.md
+      desc: "Known source-export artifacts: 24 empty-body 'Merry:' lines preserved inline; U+202F normalization note"
     - path: evidence/whatsapp/log_2026-01.md
       ids: "WA-1167–WA-1615"
     - path: evidence/whatsapp/log_2026-02.md
