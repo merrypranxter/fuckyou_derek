@@ -31,10 +31,13 @@ This repository is a **structured, searchable database** of the Derek & Merry si
 │   ├── whatsapp/
 │   │   ├── chat_index_*.csv         ← EVERY message: ID, timestamp, speaker, text. Search by keyword.
 │   │   ├── log_2025-11.md         ← monthly chunks, every message has a permanent WA-#### ID
-│   │   ├── log_2025-12.md
+│   │   ├── log_2025-12_part1.md   ← December split in 3 (biggest month): Dec 5–9
+│   │   ├── log_2025-12_part2.md   ← Dec 9–14, incl. the Dec 12 confrontation
+│   │   ├── log_2025-12_part3.md   ← Dec 18–31, incl. WA-1135 (the 1-hr video call)
 │   │   ├── log_2026-01.md
 │   │   ├── log_2026-02.md
-│   │   └── log_2026-05.md         ← the "reunion" logs (May 16–18, 2026)
+│   │   ├── log_2026-05.md         ← the "reunion" logs (May 16–18, 2026)
+│   │   └── SOURCE_ARTIFACTS.md    ← known source-export glitches, documented
 │   ├── screenshots/
 │   │   └── DEREK6_SCREENSHOT_INDEX.md  ← 28-page screenshot dossier, indexed & transcribed
 │   └── transcripts/
