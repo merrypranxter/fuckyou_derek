@@ -72,7 +72,7 @@ Pull in this order — each is self-contained:
 - **The first ~10 months are missing.** Contact began **Jan 26, 2025** (StarMaker). The exported WhatsApp log begins **Nov 5, 2025**. Everything before that survives only as **user testimony** and the third-party reports that analyzed it. Modules mark every claim as either `whatsapp_log` (hard receipt), `screenshot` (hard receipt), `user_testimony` (sworn account, not independently verifiable), or `report` (third-party AI analysis of testimony).
 - **The WhatsApp export and the screenshots agree.** The 28 screenshot pages (Dec 12, 2025 fight) match the exported log line-for-line, timestamp-for-timestamp. The export has not been doctored in the overlapping region.
 - **This is one side's archive.** It is organized to be *checkable*, not just *persuasive*. Every narrative claim points at a timestamped receipt you can read yourself.
-- Names/handles: Merry = the archivist. Derek Vasilakis = the subject. "Jay" appears only via testimony (no logs). StarMaker activity referenced via testimony + reports.
+- Names/handles: Merry = the archivist. Derek ******** = the subject. "Jay" appears only via testimony (no logs). StarMaker activity referenced via testimony + reports.
 
 ## Message Statistics (from `chat_index_*.csv`)
 
