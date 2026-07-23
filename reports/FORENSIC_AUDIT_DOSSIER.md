@@ -81,4 +81,4 @@ Merry is an Enabler of Defaults. Her "insanity" is a logical response to a year 
 but her continued presence on the "stage" allows Derek to keep directing a play that has no
 intention of opening.
 CASE CLOSED: THE DATA CONFIRMS A SYSTEMIC INTEGRITY FAILURE BY DEREK
-VASILAKIS.
+********.
